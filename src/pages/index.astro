@@ -1,0 +1,33 @@
+---
+// src/pages/index.astro
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Card from "../components/Card.astro";
+---
+
+<!-- profile2.webp you can remove | Photo <a href="https://unsplash.com/es/@charlesdeluvio?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">charlesdeluvio</a> en <a href="https://unsplash.com/es/fotos/hombre-con-gorro-negro-kVg2DQTAK7c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  -->
+
+<!-- You can replace the card's data with your own here. -->
+<BaseLayout title="Personal Card Portfolio Astro" description="Meta description. Here goes your page description. Provide a clear and concise summary of the content.">
+	<Card
+	name="Nacho Naves"
+	position="Desarrollo de Aplicaciones Web"
+	aboutMe={`¡Hola! Soy Nacho, un estudiante apasionado por el desarrollo web y en constante aprendizaje. Actualmente, combino mi formación académica y autodidacta en Desarrollo de Aplicaciones Web con proyectos personales, que reflejan mi evolución como desarrollador. Aunque mi experiencia laboral no está directamente vinculada al sector, me ha permitido desarrollar habilidades clave como el trabajo en equipo y la gestión de proyectos. ¡Te invito a explorar mis redes sociales y portafolio para conocer más sobre mi trabajo y trayectoria!
+
+`}
+	porfolio="https://mitonacho.github.io/Portfolio/"
+	linkedin="https://www.linkedin.com/in/nacho-naves-men%C3%A9ndez-a358451b6/"
+	github="https://github.com/MitoNacho"
+	cvLink="/files/cv.pdf"
+	profileImage="/images/perfil.JPG"
+	/>
+</BaseLayout>
+
+<!--
+	"Hi there!, I'm Brian. I hope this small template helps you gain visibility while you build great projects. Thank you for using it. I wish you success in everything you set out to do; you will surely achieve great things.
+
+	Here is my GitHub {https://github.com/alcarazbrian}. You can help me by following me, giving a Star to the template, and sharing it so others can see and use it.
+
+	Have a great day!"
+-->

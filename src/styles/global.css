@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.nacho {
+    color: #ffb703;
+}
+.titulo {
+    color: #2f1111;
+    font-weight: bolder;
+}
